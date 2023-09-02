@@ -1,0 +1,158 @@
+.main-blog {
+    display: flex;
+    
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.headline {
+    text-transform: uppercase;
+    font-weight: unset;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+/* left */
+.headline-left {
+    margin: 20px 0 20px 10px;
+}
+.left-blog {
+    width: 780px;
+}
+.div-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content {
+    width: 390px;
+    padding: 0 15px;
+    margin-bottom: 40px;
+}
+
+.mainBlog .right-blog {
+    max-width: 390px;
+}
+
+.puple-img {
+    position: relative;
+}
+
+.toppic {
+    background-color: rgb(255, 123, 0);
+    color: white;
+    width: max-content;
+    line-height: 18px;
+    text-align: center;
+    padding: 5px 8px;
+    font-weight: bold;
+
+    position: absolute;
+}
+.div-author {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.link-author {
+    position: relative;
+}
+.link-author::after {
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom:25px solid rgb(255, 255, 255);
+    /* background-color: black; */
+
+    position: absolute;
+    left: 25%;
+    top: -40px;
+    /* transform: rotate(45deg); */
+}
+.avt-author {
+    border-radius: 50%;
+}
+.nameAuthor {
+    margin-left: 15px;
+    font-weight: bold;
+}
+.imgpost {
+    width: 360px;
+}
+
+.title {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.nameAuthor:hover,
+.title:hover {
+    color: brown;
+    cursor: pointer;
+}
+.dicripsions {
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+/* Right */
+.right-blog {
+    width: 390px;
+}
+.content_ {
+    display: flex;
+    margin: 15px 0;
+
+}
+.title-content:hover {
+    color: brown;
+    cursor: pointer;
+}
+.img-right {
+    width: 180px;
+}
+.content_ a {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Page number */
+.div-page-number {
+    position: absolute;
+    left: 25%;
+    bottom: 30px;
+}
+.page-number {
+    display: flex;
+    list-style: none;
+}
+.page-number li {
+    border: 1px solid #0000007f;
+    padding: 10px 15px;
+    color: rgb(36, 154, 208);
+    cursor: pointer;
+}
+.page-number li:hover {
+    background-color: rgba(160, 175, 175, 0.585);
+}
+.page-number li:nth-child(1) {
+    background-color: #23a5d4;
+    color: white;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.page-number li:nth-child(5) {
+    cursor: not-allowed;
+}
+.page-number li:nth-child(7) {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+

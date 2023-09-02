@@ -1,0 +1,51 @@
+footer {
+    width: 100vw;
+    color: white;
+}
+footer .contact {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+.contact-left, .contact-right {
+    width: 585px;
+    margin: 20px 0;
+}
+
+ul.cpr li {
+    list-style: none;
+    margin: 10px;
+}
+li .email {
+    color: white;
+}
+li .company, li .ads {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.viewAds {
+    color: black;
+    background-color: white;
+    width: max-content;
+    padding: 7px;
+    border-radius: 5px;
+}
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.copyright p {
+    color: black;
+    margin: 10px 0 7px 0;
+}
+.github a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+.svg-footer {
+    fill: white;
+}

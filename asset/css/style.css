@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /* font-family:'Courier New', Courier, monospace; */
+    color: black;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100vw;
+}
+
+/* .main {
+    background-color: -webkit-linear-gradient(top, black 50%, white 100%);
+} */
